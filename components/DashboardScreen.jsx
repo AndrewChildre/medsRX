@@ -81,8 +81,6 @@ const styles = StyleSheet.create({
 	morningMedsBorder: {
 		borderWidth: 1,
 		borderColor: 'lightgray',
-		borderTopLeftRadius: 10,
-		borderTopRightRadius: 10,
 		borderRadius: 10,
 	},
 	banner: {
@@ -120,6 +118,7 @@ const styles = StyleSheet.create({
 		alignItems: 'flex-end',
 		flex: 1,
 		paddingRight: 20,
+
 	},
 	medTime: {
 		color: '#787878',
