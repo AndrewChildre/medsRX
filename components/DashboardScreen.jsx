@@ -36,12 +36,10 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 		paddingHorizontal: 25,
 	},
-
 	circle: {
 		marginRight: 5,
 	},
 	medicationSection: {
-	
 		marginTop: 5,
 		flex: 1,
 		flexDirection: 'row',
@@ -50,7 +48,6 @@ const styles = StyleSheet.create({
 		borderWidth: 1,
 		borderColor: 'lightgray',
 		borderRadius: 10,
-
 	},
 	barContainer: {
 		height: 10,
@@ -69,7 +66,6 @@ const styles = StyleSheet.create({
 		fontWeight: 'bold',
 		fontSize: 20,
 	},
-
 	header: {
 		flexDirection: 'row',
 		justifyContent: 'space-between',
@@ -128,7 +124,6 @@ const styles = StyleSheet.create({
 	medTime: {
 		color: '#787878',
 		fontSize: 15,
-
 	},
 	medType: {
 		fontSize: 18,
@@ -359,7 +354,7 @@ function TakeMeds() {
 				)}
 			/>
 		</View>
-	)
+	);
 }
 
 // ------------------------------------End Take Meds Section----------------
