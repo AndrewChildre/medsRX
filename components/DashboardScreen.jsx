@@ -118,7 +118,6 @@ const styles = StyleSheet.create({
 		alignItems: 'flex-end',
 		flex: 1,
 		paddingRight: 20,
-
 	},
 	medTime: {
 		color: '#787878',
